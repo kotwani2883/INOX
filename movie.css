@@ -76,34 +76,34 @@ html{
 #home::before{
     content:" ";
     position: absolute;
-    background:url('movies/img10.jpg') no-repeat center/cover ;
+    background:url('movies/img23.jpg') no-repeat center/cover ;
     height: 100%;
     width: 100%;
     background-size: contain;
     z-index: -1;
     opacity: 0.8;
-    animation: animate 17s ease-in-out infinite;
+    animation: animate 15ms ease-in-out infinite;
     
    
   }
   @keyframes animate{
       0%{
-          background:url('movies/img13.jpg')no-repeat center center/cover;
+          background:url('movies/img26.jpg')no-repeat center center/cover;
       }
       20%{
-          background: url('movies/img11.jpg')no-repeat center center/cover;
+          background: url('movies/img21.jpg')no-repeat center center/cover;
       }
       40%{
-          background: url('movies/img3.jpg')no-repeat center center/cover;
+          background: url('movies/img22.jpg')no-repeat center center/cover;
       }
       60%{
-          background: url('movies/img8.jpg')no-repeat center center/cover;
+          background: url('movies/img23.jpg')no-repeat center center/cover;
       }
       80%{
-          background: url('movies/img10.jpg')no-repeat center center/cover;
+          background: url('movies/img24.jpg')no-repeat center center/cover;
       }
       100%{
-          background: url('movies/img12.jpg')no-repeat center center/cover;
+          background: url('movies/img25.jpg')no-repeat center center/cover;
       }
   }
    #home{
