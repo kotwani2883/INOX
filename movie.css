@@ -82,7 +82,7 @@ html{
     background-size: contain;
     z-index: -1;
     opacity: 0.8;
-    animation: animate 15s ease-in-out infinite;
+    animation: animate 35s ease-in-out infinite;
     
    
   }
