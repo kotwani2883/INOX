@@ -16,9 +16,7 @@
 
     <div class="topnav" id="navbar">
 
-        <div id="logo">
-            <img src="movies/logo.jpg" alt="inox here" width="200px" height="220px">
-        </div>
+
         <a href="#home" class="active">Home</a>
         <a href="#about">About Us</a>
         <a href="#register">Register/Login</a>
@@ -26,6 +24,9 @@
         <a href="#contact">Contact-us</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i></a>
+    </div>
+    <div id="logo">
+        <img src="movies/logo.jpg" alt="inox here" width="200px" height="220px">
     </div>
     <section id="home">
         <h1 class="my3">The best always comes after itermission.So stay home during this CORONA CRISIS</h1>
@@ -41,7 +42,7 @@
         <hr>
         <div id="my1">
             <div class="box">
-                <img src="movies/am.jpg" alt="First movie" >
+                <img src="movies/am.jpg" alt="First movie">
 
                 <h6 class="h-second center">Angrezi Medium(hindi)<br>Drama</h6>
 
@@ -287,25 +288,52 @@
         <hr>
         <h2>Contact-us</h2>
         <hr>
-        <div id="contact-box">
+        <div class="my4">
             <form action="">
-                <div class="form-group">
-                    <label for="name">Name:</label><br>
-                    <input type="text" name="name" id="name" placeholder="Enter your name ">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">First Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name...">
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="lname">Last Name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        </div>
+                    </div>
+                
+                <div class="row">
+                    <div class="col-75">
+                        <label for="country">Country</label>
+                    </div>
+                        <div class="col-75">
+                        <select id="country" name="country">
+                            <option value="India">India</option>
+                            <option value="USA">USA</option>
+                            <option value="china">China</option>
+                            <option value="australia">Australia</option>
+                            <option value="russia">Russia</option>
+                            <option value="Africa">Africa</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="email">Email:</label><br>
-                    <input type="email" name="name" id="email" placeholder="Enter your email-id ">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class= "col-75">
+                        <textarea id="subject" name="subject" placeholder="Write something..." style="height: 200px;">
+                        </textarea>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="name">Phone-Number:</label><br>
-                    <input type="phone" name="name" id="phone" placeholder="Enter your Contact Number ">
+                <div class="row">
+                    <input type="submit" value="submit">
                 </div>
-                <div class="form-group">
-                    <label for="name">Message:</label><br>
-                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                </div>
-
             </form>
         </div>
     </section>
